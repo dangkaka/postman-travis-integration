@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/dangkaka/postman-travis-integration.svg?branch=master)](https://travis-ci.org/dangkaka/postman-travis-integration)
-# postman-travis-integration
 
 ## What is postman?
 The main purpose of Postman is to help build APIs faster, allowing the creation of requests quickly and build workflows using collections
