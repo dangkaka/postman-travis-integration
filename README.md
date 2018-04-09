@@ -13,3 +13,4 @@ A small github api test
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b8eadf4244bb7fcfe4ed)
 
+![example](example.png)
