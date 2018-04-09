@@ -8,3 +8,8 @@ The main purpose of Postman is to help build APIs faster, allowing the creation 
 * [API testing tips from a Postman professional](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/)
 * [Integration with Travis CI](https://www.getpostman.com/docs/v6/postman/collection_runs/integration_with_travis)
 
+## What does this example do?
+A small github api test
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b8eadf4244bb7fcfe4ed)
+
