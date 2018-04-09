@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "e02abb62-7bd7-475c-b4f4-a9ea9961d784",
+		"name": "Github",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ed2ea9f9-5999-4e96-860d-243371733e49",
+						"type": "text/javascript",
+						"exec": [
+							"const jsonData = JSON.parse(responseBody);",
+							"",
+							"const { login } = jsonData;",
+							"",
+							"var username = postman.getEnvironmentVariable(\"username\");",
+							"",
+							"tests[\"Gets the correct username\"] = login === username;",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url}}/{{username}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{username}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
